@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style href="style.css"></style>
+    <style rel="stylesheet" href="style.css"></style>
     <script src="config.js" defer></script>
     <script src="js.js" defer></script>
 </head>
 <body>
+        <div>
             <label>Base Currency:</label>
-            <input>
-            <select id="orginCurrency"></select>
+            <input type="number" id="amount" placeholder="Please enter an amount">
+            <select id="originCurrency"></select>
             <select id="convertedTo"></select>
     
             <button id="convertBtn">Convert</button>
     
-            <div id="result"></div>
+            <p id="result"></p>
+        </div>
 </body>
 </html>
